@@ -1,0 +1,29 @@
+{
+    "Works":
+    [
+        {
+            "id": 1,
+            "URL": "http://sportfactory.press",
+            "Referrer": "https://www.google.com/search?q=sport",
+            "Algo":
+            [
+                {
+                  "XPath": "#menu-item-1594 > a",
+                  "Timeout": 3000 
+                },
+                {
+                  "XPath": "#post-1595 > div > div.entry-thumb > a > img",
+                  "Timeout": 3000
+                },
+                {
+                  "XPath": "#post-1595 > div.entry-footer > div > div.entry-tags > a:nth-child(2)",
+                  "Timeout": 3000
+                },
+                {
+                  "XPath": "#tag_cloud-5 > div > a.tag-cloud-link.tag-link-318.tag-link-position-3",
+                  "Timeout": 3000
+                }
+            ]
+        }
+    ]
+}
